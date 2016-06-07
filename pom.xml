@@ -9,29 +9,30 @@
     <version>1.0-SNAPSHOT</version>
 
 
-    <repositories>
+  <!--  <repositories>
         <repository>
             <id>thirdparty</id>
             <name>3rd party</name>
             <url>http://127.0.0.1:8081/nexus/content/repositories/thirdparty/</url>
         </repository>
-    </repositories>
+    </repositories>-->
+
     <!-- http://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-emr -->
     <dependencies>
 
 
-
         <dependency>
-            <groupId>com.hasoffer.own</groupId>
+            <groupId>net.sf.ezmorph</groupId>
             <artifactId>ezmorph</artifactId>
             <version>1.0.4</version>
         </dependency>
-
+        
         <dependency>
-            <groupId>com.hasoffer.own</groupId>
+            <groupId>net.sf.json-lib</groupId>
             <artifactId>json-lib</artifactId>
             <version>2.4</version>
         </dependency>
+
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-emr</artifactId>
